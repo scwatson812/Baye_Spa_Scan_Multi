@@ -1,0 +1,8 @@
+The file BSSM.R implements the Bayesian spatial scan statistic for multinomial data.
+
+The file NullSims.R implements simulations under the null hypothesis to determine the appropriate Bayes factor threshold for rejection of the null hypothesis.
+
+DataFile.csv is an example of how the data should be formatted.
+The Observation ID column should contain a unique ID for each multinomial observation.
+The next K columns (Category 1,...,Category K) should contain the mulitnomial counts for each category for each observation.
+The next M columns (Zone 1, ..., Zone M) should contain a 1 if the observations in that row falls into that zone and 0 otherwise.
